@@ -50,9 +50,9 @@
                     <ul>
                         <li class="active"><a href="/usuario"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Perfil</span></a></li>
                         <li><a href="/usuario/credito" name="credito"><i class="fa fa-tasks" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Acreditar Saldo</span></a></li>
-                        <li><a href="/usuario/debito"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Debitar Saldo</span></a></li>
+                        <li><a href="/usuario/debito" name="debito"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Debitar Saldo</span></a></li>
                         <li><a href="/usuario/saldo" name="saldo"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Saldo</span></a></li>
-                        <li><a href="/usuario/transferencia"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Transferencia</span></a></li>
+                        <li><a href="/usuario/transferencia" name="transferencia"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Transferencia</span></a></li>
                         <li><a href="/usuario/historial" name="historial"><i class="fa fa-calendar" aria-hidden="true"></i><span class="hidden-xs hidden-sm"></span>Historial</a></li> 
                     </ul>
                     <ul>
