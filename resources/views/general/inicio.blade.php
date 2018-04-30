@@ -100,7 +100,7 @@
 				                        </div>
 				                        <br>
 										<div class="form-group">
-											 <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+											 <button type="submit" class="btn btn-primary btn-block" name="btn_ingresar">Ingresar</button>
 										</div>
 										<div class="checkbox">
 											 <label>

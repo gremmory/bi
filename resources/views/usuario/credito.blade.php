@@ -34,7 +34,7 @@
                       <!-- Login Button -->
                       <div class="row">
                           <div align="center">
-                              <button class="btn btn-primary" type="submit">Realizar</button>
+                              <button class="btn btn-primary" type="submit" name="btn_realizar">Realizar</button>
                           </div>
                       </div>
                       

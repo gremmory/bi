@@ -4,19 +4,15 @@ use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
-class ExampleTest extends TestCase
+class LoginTest extends TestCase
 {
     /**
-     * A basic functional test example.
+     * A basic test example.
      *
      * @return void
      */
-    public function testBasicExample()
+    public function testExample()
     {
-        /*
-        $this->visit('/')
-             ->see('Se parte del futuro.');
-        */
         $this->visit('/')
             ->type('80938', 'cod')
             ->type('josef', 'user')
@@ -26,4 +22,3 @@ class ExampleTest extends TestCase
             ->see('Bienvenido, Jose Fuentes');//verifica que se haya ingresado a esta pagina
     }
 }
-//usuario/saldo
