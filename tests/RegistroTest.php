@@ -23,10 +23,6 @@ class RegistroTest extends TestCase
             ->type('1234', 'pass2')
             ->press('Registrar')
             //->see('REGISTRO EXITOSO')
-<<<<<<< HEAD
-            ->see('ERROR: El usuario ingresado ya se encuentra registrado.');
-=======
             ->see('ERROR: El usuario ingresado ya se encuentra registrado1.');
->>>>>>> developer
     }
 }
