@@ -1,29 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Application Test Suite" tests="8" assertions="78" failures="0" errors="0" time="3.206239">
-    <testsuite name="AcreditarTest" file="/home/gremory/Escritorio/bi/tests/AcreditarTest.php" tests="1" assertions="13" failures="0" errors="0" time="2.739137">
-      <testcase name="testExample" class="AcreditarTest" file="/home/gremory/Escritorio/bi/tests/AcreditarTest.php" line="14" assertions="13" time="2.739137"/>
+  <testsuite name="Application Test Suite" tests="8" assertions="78" failures="1" errors="0" time="2.967914">
+    <testsuite name="AcreditarTest" file="/home/gremory/Escritorio/bi/tests/AcreditarTest.php" tests="1" assertions="13" failures="0" errors="0" time="2.365050">
+      <testcase name="testExample" class="AcreditarTest" file="/home/gremory/Escritorio/bi/tests/AcreditarTest.php" line="14" assertions="13" time="2.365050"/>
     </testsuite>
-    <testsuite name="DebitoTest" file="/home/gremory/Escritorio/bi/tests/DebitoTest.php" tests="1" assertions="13" failures="0" errors="0" time="0.074610">
-      <testcase name="testExample" class="DebitoTest" file="/home/gremory/Escritorio/bi/tests/DebitoTest.php" line="14" assertions="13" time="0.074610"/>
+    <testsuite name="DebitoTest" file="/home/gremory/Escritorio/bi/tests/DebitoTest.php" tests="1" assertions="13" failures="1" errors="0" time="0.150368">
+      <testcase name="testExample" class="DebitoTest" file="/home/gremory/Escritorio/bi/tests/DebitoTest.php" line="14" assertions="13" time="0.150368">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">DebitoTest::testExample
+Failed asserting that '&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+    &lt;!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --&gt;
+    &lt;meta name="description" content="Bank System"&gt;
+    &lt;meta name="author" content="Luis Paz"&gt;
+    &lt;link rel="icon" href="http://localhost/images/log_bi.ico"&gt;
+
+    &lt;title&gt; BI/Debito&lt;/title&gt;
+
+    &lt;!-- Bootstrap core CSS --&gt;
+    &lt;link href=" http://localhost/boostrap/css/bootstrap.min.css" rel="stylesheet"&gt;
+
+    &lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"&gt;&lt;/script&gt;
+      &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+        &lt;link href="http://localhost/assets/progreso.css" rel="stylesheet"&gt;
+    &lt;link href="http://localhost/assets/user.css" rel="stylesheet"&gt;
+    &lt;!-- Custom styles for this template --&gt;
+    
+    
+    &lt;link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"&gt;
+
+  &lt;/head&gt;
+
+
+&lt;body class="home"&gt;
+
+    &lt;div class="container-fluid display-table"&gt;
+        &lt;div class="row display-table-row"&gt;
+            &lt;div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation"&gt;
+                &lt;div class="logo"&gt;
+                    &lt;a hef="home.html"&gt;
+                        &lt;img src="http://localhost/images/log_bi.png" alt="merkery_logo" class="hidden-xs hidden-sm" &gt;
+                        &lt;img src="http://localhost/images/log_bi.png" alt="merkery_logo" class="visible-xs visible-sm circle-logo"&gt;
+                    &lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class="navi"&gt;
+                    &lt;ul&gt;
+                        &lt;li class="active"&gt;&lt;a href="/usuario"&gt;&lt;i class="fa fa-home" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="hidden-xs hidden-sm"&gt;Perfil&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="/usuario/credito" name="credito"&gt;&lt;i class="fa fa-tasks" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="hidden-xs hidden-sm"&gt;Acreditar Saldo&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="/usuario/debito" name="debito"&gt;&lt;i class="fa fa-bar-chart" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="hidden-xs hidden-sm"&gt;Debitar Saldo&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="/usuario/saldo" name="saldo"&gt;&lt;i class="fa fa-cog" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="hidden-xs hidden-sm"&gt;Saldo&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="/usuario/transferencia" name="transferencia"&gt;&lt;i class="fa fa-user" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="hidden-xs hidden-sm"&gt;Transferencia&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="/usuario/historial" name="historial"&gt;&lt;i class="fa fa-calendar" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="hidden-xs hidden-sm"&gt;&lt;/span&gt;Historial&lt;/a&gt;&lt;/li&gt; 
+                    &lt;/ul&gt;
+                    &lt;ul&gt;
+                        &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class="col-md-10 col-sm-11 display-table-cell v-align"&gt;
+                &lt;!--&lt;button type="button" class="slide-toggle"&gt;Slide Toggle&lt;/button&gt; --&gt;
+                &lt;div class="row"&gt;
+                    &lt;header&gt;
+                        &lt;div class="col-md-7"&gt;
+                            &lt;nav class="navbar-default pull-left"&gt;
+                                &lt;div class="navbar-header"&gt;
+                                    &lt;button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false"&gt;
+                                        &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+                                        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+                                        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+                                        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+                                    &lt;/button&gt;
+                                &lt;/div&gt;
+                            &lt;/nav&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-md-5"&gt;
+                            &lt;div class="header-rightside"&gt;
+                                &lt;ul class="list-inline header-top pull-right"&gt;
+                                    
+                                    &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-envelope" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;
+                                        &lt;a href="#" class="icon-info"&gt;
+                                            &lt;i class="fa fa-bell" aria-hidden="true"&gt;&lt;/i&gt;
+                                            &lt;span class="label label-primary"&gt;1&lt;/span&gt;
+                                        &lt;/a&gt;
+                                    &lt;/li&gt;
+                                    &lt;li class="dropdown"&gt;
+                                        &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&gt;&lt;img src="http://localhost/images/avatarH.png" alt="user"&gt;
+                                            &lt;b class="caret"&gt;&lt;/b&gt;&lt;/a&gt;
+                                        &lt;ul class="dropdown-menu"&gt;
+                                            &lt;li&gt;
+                                                &lt;div class="navbar-content"&gt;
+                                                    &lt;span&gt;Jose Fuentes&lt;/span&gt;
+                                                    &lt;p class="text-muted small"&gt;
+                                                        jose@gmail.com
+                                                    &lt;/p&gt;
+                                                    &lt;div class="divider"&gt;
+                                                    &lt;/div&gt;
+                                                    &lt;a href="#" class="view btn-sm active"&gt;Actualizar Perfil&lt;/a&gt;
+                                                &lt;/div&gt;
+                                            &lt;/li&gt;
+                                        &lt;/ul&gt;
+                                    &lt;/li&gt;
+                                    &lt;li class="hidden-xs"&gt; &lt;a href="/salir" class="add-project" data-toggle="modal"&gt;Cerrar Sesion&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/header&gt;
+                &lt;/div&gt;
+       
+                &lt;div class="user-dashboard"&gt;
+                    &lt;div class="row placeholders" &gt;
+                      &lt;div class="col placeholder" align="center"&gt;
+                        &lt;img src="http://localhost/images/avatarH.png" width="200" height="200" alt="Generic placeholder thumbnail"&gt;
+                        &lt;h4&gt;Jose Fuentes&lt;/h4&gt;
+                        &lt;span class="text-muted"&gt;80938&lt;/span&gt;
+                        &lt;h6&gt;Cuenta: 1006607499&lt;/h6&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+    	&lt;div class="container" &gt;  
+		&lt;div class="panel panel-default"&gt;      
+			&lt;div class="panel-heading"&gt;
+		        &lt;h3 class="panel-title" align="center"&gt;DEBITAR SALDO&lt;/h3&gt;
+	    	&lt;/div&gt;
+	   		&lt;div class="panel-body"&gt;
+                &lt;div class="alert
+                    alert-success
+                    alert-important"
+                    role="alert"
+        &gt;
+                            &lt;button type="button"
+                        class="close"
+                        data-dismiss="alert"
+                        aria-hidden="true"
+                &gt;&amp;times;&lt;/button&gt;
+                        &lt;p&gt;Notificacion:&lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;DEBITO EXITOSO: Se ha debitado correctamente el monto indicado&lt;/li&gt;    
+            &lt;/ul&gt;
+            
+        &lt;/div&gt;
+    
+
+                     
+                &lt;!-- debito Form --&gt;
+                  &lt;form method="POST" action="http://localhost/usuario/debitar" accept-charset="UTF-8"&gt;&lt;input name="_token" type="hidden" value="QIDhBu4Su9woQ4B2kLgaV6iZYv632lUGhljmb9sz"&gt;
+                  &lt;!-- Username Field --&gt;
+                      &lt;div class="form-group"&gt;
+                        &lt;label for="cuenta"&gt;Numero de cuenta:&lt;/label&gt;
+                        &lt;input class="form-control" placeholder="Ingrese el numero de cuenta" required="required" name="cuenta" type="number" id="cuenta"&gt;
+                      &lt;/div&gt;
+                       
+                      &lt;div class="form-group"&gt;
+                        &lt;label for="monto"&gt;Monto a acreditar:&lt;/label&gt;
+                        &lt;input class="form-control" placeholder="Ingrese el Monto" required="required" step="any" name="monto" type="number" id="monto"&gt;
+                      &lt;/div&gt;
+
+                        &lt;div class="form-group"&gt;
+                                &lt;label for="desc"&gt;Descripci&amp;oacute;n:&lt;/label&gt;
+                                &lt;textarea class="form-control" required="required" name="desc" cols="50" rows="10" id="desc"&gt;&lt;/textarea&gt;
+                        &lt;/div&gt;    
+                      &lt;!-- Login Button --&gt;
+                      &lt;div class="row"&gt;
+                          &lt;div align="center"&gt;
+                              &lt;button class="btn btn-primary" type="submit" name="btn_realizar"&gt;Realizar&lt;/button&gt;
+                          &lt;/div&gt;
+                      &lt;/div&gt;
+                      
+                  &lt;/form&gt;
+                &lt;!-- End of Login Form --&gt;     
+            &lt;/div&gt;
+	    &lt;/div&gt;
+    &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+ &lt;!-- Bootstrap core JavaScript
+    ================================================== --&gt;
+    &lt;!-- Placed at the end of the document so the pages load faster --&gt;
+    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"&gt;&lt;/script&gt;
+    &lt;script&gt;window.jQuery || document.write('&lt;script src="http://localhost/jQuery/jquery-3.2.1.min.js"&gt;&lt;\/script&gt;')&lt;/script&gt;
+    &lt;script src="http://localhost/boostrap/js/bootstrap.min.js"&gt;&lt;/script&gt;
+
+&lt;!--  Area de Scripts --&gt;
+            &lt;Script&gt;
+            $(document).ready(function(){
+               $('[data-toggle="offcanvas"]').click(function(){
+                   $("#navigation").toggleClass("hidden-xs");
+               });
+            });
+        &lt;/Script&gt;
+    
+&lt;/body&gt;
+
+&lt;/html&gt;' matches PCRE pattern "/DEBITO EXITOSO\: Se ha debitado correctamente el monto indicado1/i".
+
+/home/gremory/Escritorio/bi/vendor/laravel/framework/src/Illuminate/Foundation/Testing/InteractsWithPages.php:187
+/home/gremory/Escritorio/bi/tests/DebitoTest.php:30
+</failure>
+      </testcase>
     </testsuite>
-    <testsuite name="ExampleTest" file="/home/gremory/Escritorio/bi/tests/ExampleTest.php" tests="1" assertions="6" failures="0" errors="0" time="0.029825">
-      <testcase name="testBasicExample" class="ExampleTest" file="/home/gremory/Escritorio/bi/tests/ExampleTest.php" line="14" assertions="6" time="0.029825"/>
+    <testsuite name="ExampleTest" file="/home/gremory/Escritorio/bi/tests/ExampleTest.php" tests="1" assertions="6" failures="0" errors="0" time="0.062043">
+      <testcase name="testBasicExample" class="ExampleTest" file="/home/gremory/Escritorio/bi/tests/ExampleTest.php" line="14" assertions="6" time="0.062043"/>
     </testsuite>
-    <testsuite name="HistorialTest" file="/home/gremory/Escritorio/bi/tests/HistorialTest.php" tests="1" assertions="11" failures="0" errors="0" time="0.115684">
-      <testcase name="testExample" class="HistorialTest" file="/home/gremory/Escritorio/bi/tests/HistorialTest.php" line="14" assertions="11" time="0.115684"/>
+    <testsuite name="HistorialTest" file="/home/gremory/Escritorio/bi/tests/HistorialTest.php" tests="1" assertions="11" failures="0" errors="0" time="0.133464">
+      <testcase name="testExample" class="HistorialTest" file="/home/gremory/Escritorio/bi/tests/HistorialTest.php" line="14" assertions="11" time="0.133464"/>
     </testsuite>
-    <testsuite name="LoginTest" file="/home/gremory/Escritorio/bi/tests/LoginTest.php" tests="1" assertions="6" failures="0" errors="0" time="0.040262">
-      <testcase name="testExample" class="LoginTest" file="/home/gremory/Escritorio/bi/tests/LoginTest.php" line="14" assertions="6" time="0.040262"/>
+    <testsuite name="LoginTest" file="/home/gremory/Escritorio/bi/tests/LoginTest.php" tests="1" assertions="6" failures="0" errors="0" time="0.055694">
+      <testcase name="testExample" class="LoginTest" file="/home/gremory/Escritorio/bi/tests/LoginTest.php" line="14" assertions="6" time="0.055694"/>
     </testsuite>
-    <testsuite name="RegistroTest" file="/home/gremory/Escritorio/bi/tests/RegistroTest.php" tests="1" assertions="5" failures="0" errors="0" time="0.045315">
-      <testcase name="testExample" class="RegistroTest" file="/home/gremory/Escritorio/bi/tests/RegistroTest.php" line="14" assertions="5" time="0.045315"/>
+    <testsuite name="RegistroTest" file="/home/gremory/Escritorio/bi/tests/RegistroTest.php" tests="1" assertions="5" failures="0" errors="0" time="0.059460">
+      <testcase name="testExample" class="RegistroTest" file="/home/gremory/Escritorio/bi/tests/RegistroTest.php" line="14" assertions="5" time="0.059460"/>
     </testsuite>
-    <testsuite name="SaldoTest" file="/home/gremory/Escritorio/bi/tests/SaldoTest.php" tests="1" assertions="11" failures="0" errors="0" time="0.050859">
-      <testcase name="testExample" class="SaldoTest" file="/home/gremory/Escritorio/bi/tests/SaldoTest.php" line="14" assertions="11" time="0.050859"/>
+    <testsuite name="SaldoTest" file="/home/gremory/Escritorio/bi/tests/SaldoTest.php" tests="1" assertions="11" failures="0" errors="0" time="0.072402">
+      <testcase name="testExample" class="SaldoTest" file="/home/gremory/Escritorio/bi/tests/SaldoTest.php" line="14" assertions="11" time="0.072402"/>
     </testsuite>
-    <testsuite name="TransferenciaTest" file="/home/gremory/Escritorio/bi/tests/TransferenciaTest.php" tests="1" assertions="13" failures="0" errors="0" time="0.110547">
-      <testcase name="testExample" class="TransferenciaTest" file="/home/gremory/Escritorio/bi/tests/TransferenciaTest.php" line="14" assertions="13" time="0.110547"/>
+    <testsuite name="TransferenciaTest" file="/home/gremory/Escritorio/bi/tests/TransferenciaTest.php" tests="1" assertions="13" failures="0" errors="0" time="0.069433">
+      <testcase name="testExample" class="TransferenciaTest" file="/home/gremory/Escritorio/bi/tests/TransferenciaTest.php" line="14" assertions="13" time="0.069433"/>
     </testsuite>
   </testsuite>
 </testsuites>
