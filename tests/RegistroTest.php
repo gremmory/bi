@@ -21,7 +21,7 @@ class RegistroTest extends TestCase
             ->type('prueba@correo.com', 'correo')
             ->type('1234', 'pass')
             ->type('1234', 'pass2')
-            ->press('Registrar')
+            ->press('Registrar')//hola mundo
             //->see('REGISTRO EXITOSO')
             ->see('ERROR: El usuario ingresado ya se encuentra registrado1.');
     }
