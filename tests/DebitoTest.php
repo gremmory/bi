@@ -27,6 +27,6 @@ class DebitoTest extends TestCase
             ->type('0', 'monto')
             ->type('Ingreso Prueba 0', 'desc')
             ->press('btn_realizar')
-            ->see('DEBITO EXITOSO: Se ha debitado correctamente el monto indicado');
+            ->see('DEBITO EXITOSO: Se ha debitado correctamente el monto indicado');//hola mundo
     }
 }
