@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Application Test Suite" tests="8" assertions="78" failures="0" errors="0" time="4.598536">
-    <testsuite name="AcreditarTest" file="/home/gremory/Escritorio/bi/tests/AcreditarTest.php" tests="1" assertions="13" failures="0" errors="0" time="3.940786">
-      <testcase name="testExample" class="AcreditarTest" file="/home/gremory/Escritorio/bi/tests/AcreditarTest.php" line="14" assertions="13" time="3.940786"/>
+  <testsuite name="Application Test Suite" tests="8" assertions="78" failures="0" errors="0" time="3.206239">
+    <testsuite name="AcreditarTest" file="/home/gremory/Escritorio/bi/tests/AcreditarTest.php" tests="1" assertions="13" failures="0" errors="0" time="2.739137">
+      <testcase name="testExample" class="AcreditarTest" file="/home/gremory/Escritorio/bi/tests/AcreditarTest.php" line="14" assertions="13" time="2.739137"/>
     </testsuite>
-    <testsuite name="DebitoTest" file="/home/gremory/Escritorio/bi/tests/DebitoTest.php" tests="1" assertions="13" failures="0" errors="0" time="0.080441">
-      <testcase name="testExample" class="DebitoTest" file="/home/gremory/Escritorio/bi/tests/DebitoTest.php" line="14" assertions="13" time="0.080441"/>
+    <testsuite name="DebitoTest" file="/home/gremory/Escritorio/bi/tests/DebitoTest.php" tests="1" assertions="13" failures="0" errors="0" time="0.074610">
+      <testcase name="testExample" class="DebitoTest" file="/home/gremory/Escritorio/bi/tests/DebitoTest.php" line="14" assertions="13" time="0.074610"/>
     </testsuite>
-    <testsuite name="ExampleTest" file="/home/gremory/Escritorio/bi/tests/ExampleTest.php" tests="1" assertions="6" failures="0" errors="0" time="0.044444">
-      <testcase name="testBasicExample" class="ExampleTest" file="/home/gremory/Escritorio/bi/tests/ExampleTest.php" line="14" assertions="6" time="0.044444"/>
+    <testsuite name="ExampleTest" file="/home/gremory/Escritorio/bi/tests/ExampleTest.php" tests="1" assertions="6" failures="0" errors="0" time="0.029825">
+      <testcase name="testBasicExample" class="ExampleTest" file="/home/gremory/Escritorio/bi/tests/ExampleTest.php" line="14" assertions="6" time="0.029825"/>
     </testsuite>
-    <testsuite name="HistorialTest" file="/home/gremory/Escritorio/bi/tests/HistorialTest.php" tests="1" assertions="11" failures="0" errors="0" time="0.236292">
-      <testcase name="testExample" class="HistorialTest" file="/home/gremory/Escritorio/bi/tests/HistorialTest.php" line="14" assertions="11" time="0.236292"/>
+    <testsuite name="HistorialTest" file="/home/gremory/Escritorio/bi/tests/HistorialTest.php" tests="1" assertions="11" failures="0" errors="0" time="0.115684">
+      <testcase name="testExample" class="HistorialTest" file="/home/gremory/Escritorio/bi/tests/HistorialTest.php" line="14" assertions="11" time="0.115684"/>
     </testsuite>
-    <testsuite name="LoginTest" file="/home/gremory/Escritorio/bi/tests/LoginTest.php" tests="1" assertions="6" failures="0" errors="0" time="0.051141">
-      <testcase name="testExample" class="LoginTest" file="/home/gremory/Escritorio/bi/tests/LoginTest.php" line="14" assertions="6" time="0.051141"/>
+    <testsuite name="LoginTest" file="/home/gremory/Escritorio/bi/tests/LoginTest.php" tests="1" assertions="6" failures="0" errors="0" time="0.040262">
+      <testcase name="testExample" class="LoginTest" file="/home/gremory/Escritorio/bi/tests/LoginTest.php" line="14" assertions="6" time="0.040262"/>
     </testsuite>
-    <testsuite name="RegistroTest" file="/home/gremory/Escritorio/bi/tests/RegistroTest.php" tests="1" assertions="5" failures="0" errors="0" time="0.066940">
-      <testcase name="testExample" class="RegistroTest" file="/home/gremory/Escritorio/bi/tests/RegistroTest.php" line="14" assertions="5" time="0.066940"/>
+    <testsuite name="RegistroTest" file="/home/gremory/Escritorio/bi/tests/RegistroTest.php" tests="1" assertions="5" failures="0" errors="0" time="0.045315">
+      <testcase name="testExample" class="RegistroTest" file="/home/gremory/Escritorio/bi/tests/RegistroTest.php" line="14" assertions="5" time="0.045315"/>
     </testsuite>
-    <testsuite name="SaldoTest" file="/home/gremory/Escritorio/bi/tests/SaldoTest.php" tests="1" assertions="11" failures="0" errors="0" time="0.065664">
-      <testcase name="testExample" class="SaldoTest" file="/home/gremory/Escritorio/bi/tests/SaldoTest.php" line="14" assertions="11" time="0.065664"/>
+    <testsuite name="SaldoTest" file="/home/gremory/Escritorio/bi/tests/SaldoTest.php" tests="1" assertions="11" failures="0" errors="0" time="0.050859">
+      <testcase name="testExample" class="SaldoTest" file="/home/gremory/Escritorio/bi/tests/SaldoTest.php" line="14" assertions="11" time="0.050859"/>
     </testsuite>
-    <testsuite name="TransferenciaTest" file="/home/gremory/Escritorio/bi/tests/TransferenciaTest.php" tests="1" assertions="13" failures="0" errors="0" time="0.112828">
-      <testcase name="testExample" class="TransferenciaTest" file="/home/gremory/Escritorio/bi/tests/TransferenciaTest.php" line="14" assertions="13" time="0.112828"/>
+    <testsuite name="TransferenciaTest" file="/home/gremory/Escritorio/bi/tests/TransferenciaTest.php" tests="1" assertions="13" failures="0" errors="0" time="0.110547">
+      <testcase name="testExample" class="TransferenciaTest" file="/home/gremory/Escritorio/bi/tests/TransferenciaTest.php" line="14" assertions="13" time="0.110547"/>
     </testsuite>
   </testsuite>
 </testsuites>
