@@ -27,6 +27,6 @@ class AcreditarTest extends TestCase
             ->type('0', 'monto')
             ->type('Ingreso Prueba 0', 'desc')
             ->press('btn_realizar')
-            ->see('CREDITO EXITOSO: Se ha acreditado correctamente el monto indicado..');
+            ->see('CREDITO EXITOSO: Se ha acreditado correctamente el monto indicado');
     }
 }
